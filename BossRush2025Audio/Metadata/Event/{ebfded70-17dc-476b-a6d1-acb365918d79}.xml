@@ -92,6 +92,9 @@
 		<property name="length">
 			<value>1.5</value>
 		</property>
+		<property name="startOffset">
+			<value>5.5</value>
+		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{49832c94-f0b7-4572-ab1c-585544e4b0a5}</destination>
 		</relationship>
