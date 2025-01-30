@@ -68,9 +68,6 @@
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{853b0832-0d11-448c-84a5-95292d9c416f}">
-		<relationship name="modules">
-			<destination>{c8f48510-3dde-4f51-ac20-2357527cb3d8}</destination>
-		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{01d83db9-db44-4596-b049-03a8aa0c505c}</destination>
 		</relationship>
@@ -78,7 +75,6 @@
 	<object class="Timeline" id="{4560ff6d-70f9-438d-866d-d9d7c4ad11e3}">
 		<relationship name="modules">
 			<destination>{4d0595e6-75cb-4014-85de-35d73641d8e0}</destination>
-			<destination>{c8f48510-3dde-4f51-ac20-2357527cb3d8}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{7623cba2-e333-4886-98cd-354c44d56419}">
@@ -130,26 +126,6 @@
 		</relationship>
 		<relationship name="output">
 			<destination>{7623cba2-e333-4886-98cd-354c44d56419}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{c8f48510-3dde-4f51-ac20-2357527cb3d8}">
-		<property name="triggerProbabilityEnabled">
-			<value>true</value>
-		</property>
-		<property name="triggerProbability">
-			<value>40.5</value>
-		</property>
-		<property name="color">
-			<value>Yellow Light 1</value>
-		</property>
-		<property name="start">
-			<value>0.19999999999999929</value>
-		</property>
-		<property name="length">
-			<value>5.3312471655328801</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{89de28d6-a9ba-47e3-b6d1-3d45bc1bac12}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{01d83db9-db44-4596-b049-03a8aa0c505c}">
