@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{c1ed69ed-9ab3-49cd-a86b-f296cd400894}">
+		<property name="note">
+			<value>As risadas aleatorias</value>
+		</property>
 		<property name="name">
 			<value>VO_JokerLaughts</value>
 		</property>
