@@ -2,7 +2,8 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{2a5e081c-d9da-45e2-b629-3ccbb64fd5c4}">
 		<property name="note">
-			<value>Quando lança as cartas no floor</value>
+			<value>Tiro da carta
+</value>
 		</property>
 		<property name="name">
 			<value>SFX_CardShot</value>
