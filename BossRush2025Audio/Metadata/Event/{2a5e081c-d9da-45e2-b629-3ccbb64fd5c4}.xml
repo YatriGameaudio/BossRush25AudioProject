@@ -96,6 +96,9 @@
 		<property name="length">
 			<value>0.58249433106575965</value>
 		</property>
+		<property name="volume">
+			<value>5.5</value>
+		</property>
 		<relationship name="sounds">
 			<destination>{26e0196a-26cb-4c13-a8ba-912acff51e31}</destination>
 			<destination>{4a9c4ae0-d653-4928-9440-150b8cf5b778}</destination>
@@ -104,7 +107,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{0353bfa3-2378-42ee-ac4c-53e743bbccb4}">
 		<property name="volume">
-			<value>5</value>
+			<value>10</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -147,9 +150,66 @@
 	<object class="MixerBusEffectChain" id="{72fb6856-f3a9-48fe-9dec-982b91567f12}">
 		<relationship name="effects">
 			<destination>{f356ca27-5bdf-4f84-bf2d-c365dd3e60b7}</destination>
+			<destination>{736d9634-ac9d-4343-9a22-66757b091f1e}</destination>
+			<destination>{66204fc3-dc51-418d-bcf4-4c3d6a3d7877}</destination>
+			<destination>{0924be66-0e47-49e0-8d96-4955a4515fe8}</destination>
+			<destination>{aec51405-a8be-47cb-bfd2-b25d4c76bb1c}</destination>
+			<destination>{a47bb4ff-dc73-45e0-a3c8-311e198f09fe}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{070ffa38-4440-45b4-8b22-610f3f6a4ff8}" />
 	<object class="MixerBusFader" id="{72eaf196-6ad5-4a38-a13a-6e5c02e0a767}" />
 	<object class="MixerBusFader" id="{f356ca27-5bdf-4f84-bf2d-c365dd3e60b7}" />
+	<object class="TremoloEffect" id="{736d9634-ac9d-4343-9a22-66757b091f1e}">
+		<property name="frequency">
+			<value>20</value>
+		</property>
+		<property name="shape">
+			<value>1</value>
+		</property>
+		<property name="skew">
+			<value>0.879999995</value>
+		</property>
+		<property name="duty">
+			<value>1</value>
+		</property>
+		<property name="phase">
+			<value>0.48999998</value>
+		</property>
+		<property name="spread">
+			<value>1</value>
+		</property>
+	</object>
+	<object class="ChorusEffect" id="{66204fc3-dc51-418d-bcf4-4c3d6a3d7877}">
+		<property name="rate">
+			<value>1.70000005</value>
+		</property>
+		<property name="depth">
+			<value>78</value>
+		</property>
+	</object>
+	<object class="FlangerEffect" id="{0924be66-0e47-49e0-8d96-4955a4515fe8}">
+		<property name="rate">
+			<value>3.70000005</value>
+		</property>
+		<property name="delay">
+			<value>0.194999993</value>
+		</property>
+		<property name="mix">
+			<value>95</value>
+		</property>
+	</object>
+	<object class="DistortionEffect" id="{aec51405-a8be-47cb-bfd2-b25d4c76bb1c}">
+		<property name="level">
+			<value>0.719999969</value>
+		</property>
+	</object>
+	<object class="SFXReverbEffect" id="{a47bb4ff-dc73-45e0-a3c8-311e198f09fe}">
+		<property name="HFDecayRatio">
+			<value>76.5</value>
+		</property>
+		<property name="lowShelfGain">
+			<value>-25.5</value>
+		</property>
+	</object>
 </objects>
