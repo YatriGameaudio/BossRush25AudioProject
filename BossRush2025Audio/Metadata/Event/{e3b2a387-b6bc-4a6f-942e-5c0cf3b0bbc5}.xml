@@ -5,7 +5,7 @@
 			<value>VO_SnookerMyTurn</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{08d9571a-87c6-4001-b756-9d49f3224ad8}</destination>
@@ -56,7 +56,11 @@
 			<destination>{980c6494-035e-49bf-bcda-8f2b11b2bd6d}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{5dbefcf7-8c60-4bd6-8620-5e35e987f25d}" />
+	<object class="EventAutomatableProperties" id="{5dbefcf7-8c60-4bd6-8620-5e35e987f25d}">
+		<property name="dopplerEnabled">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{5ca5ce44-f2e6-4b24-85f9-9225a4626b35}" />
 	<object class="GroupTrack" id="{aeefe216-fdcf-4d59-808b-7eb225cf3797}">
 		<relationship name="modules">
@@ -97,6 +101,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{efadc492-f19b-451f-ae3f-5e1dc9c7f346}">
+		<property name="volume">
+			<value>3.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -112,6 +119,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{f6c8bced-f105-477d-addb-711aeeabcdda}">
 		<relationship name="effects">
+			<destination>{15abd2a4-b09a-429b-a7d7-dfd92cf3224e}</destination>
 			<destination>{b320f692-90a4-4948-85c2-0a8d7afe59fb}</destination>
 		</relationship>
 	</object>
@@ -123,6 +131,17 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{2375142a-fea7-4028-917a-eeef3cfe012d}" />
+	<object class="SpatialiserEffect" id="{15abd2a4-b09a-429b-a7d7-dfd92cf3224e}">
+		<property name="minimumDistance">
+			<value>4.4000001</value>
+		</property>
+		<property name="maximumDistance">
+			<value>40</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{b320f692-90a4-4948-85c2-0a8d7afe59fb}" />
 	<object class="MixerBusFader" id="{5efde386-220a-4662-a95d-a45e3ba7366d}" />
 </objects>

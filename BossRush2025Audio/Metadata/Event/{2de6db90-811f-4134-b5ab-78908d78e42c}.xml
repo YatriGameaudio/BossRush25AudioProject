@@ -5,7 +5,7 @@
 			<value>SFX_BallHitBall</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{08d9571a-87c6-4001-b756-9d49f3224ad8}</destination>
@@ -115,6 +115,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{6f474680-0675-480a-82c1-f257eb562b3f}">
 		<relationship name="effects">
+			<destination>{17e3e9f6-b76e-4366-a4f7-705435ff71b7}</destination>
 			<destination>{9707e7ed-75cc-4277-8820-5e60d03f7fd5}</destination>
 		</relationship>
 	</object>
@@ -146,6 +147,20 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{bffb18a5-2ca0-42d0-81c6-d7a3255d39a7}" />
+	<object class="SpatialiserEffect" id="{17e3e9f6-b76e-4366-a4f7-705435ff71b7}">
+		<property name="distanceRolloffType">
+			<value>1</value>
+		</property>
+		<property name="minimumDistance">
+			<value>3.79999995</value>
+		</property>
+		<property name="maximumDistance">
+			<value>35</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{9707e7ed-75cc-4277-8820-5e60d03f7fd5}" />
 	<object class="MixerBusFader" id="{f7b662e9-e861-4e3c-bdd0-f73212fc3d52}" />
 </objects>
