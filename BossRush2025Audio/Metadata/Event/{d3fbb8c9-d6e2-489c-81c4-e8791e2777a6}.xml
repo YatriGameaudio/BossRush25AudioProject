@@ -12,7 +12,7 @@
 			<value>1</value>
 		</property>
 		<relationship name="folder">
-			<destination>{57cc326d-fbd3-4d2f-9deb-820f4b0fd088}</destination>
+			<destination>{32e95b10-7d3f-4432-8064-8e728505c5a6}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{c144c5da-7e43-41ed-aa04-631d1fff0608}</destination>
@@ -45,6 +45,10 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{17a1e367-c1db-4623-8c2f-27d062921647}">
+		<relationship name="modules">
+			<destination>{e101686a-a3f2-43e7-a445-37ee86062d9f}</destination>
+			<destination>{2da2adea-02c9-4cc1-a3e2-1d42e62a184b}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{6626e0f3-5a46-465f-a408-3d033bc38113}</destination>
 		</relationship>
@@ -73,6 +77,8 @@
 	<object class="Timeline" id="{08d570ec-4197-472c-9097-c627b0902f85}">
 		<relationship name="modules">
 			<destination>{96b6eedf-c79c-459f-a03c-0cc7528c07a6}</destination>
+			<destination>{e101686a-a3f2-43e7-a445-37ee86062d9f}</destination>
+			<destination>{2da2adea-02c9-4cc1-a3e2-1d42e62a184b}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{6626e0f3-5a46-465f-a408-3d033bc38113}">
@@ -86,6 +92,28 @@
 			<destination>{c144c5da-7e43-41ed-aa04-631d1fff0608}</destination>
 		</relationship>
 	</object>
+	<object class="CommandSound" id="{e101686a-a3f2-43e7-a445-37ee86062d9f}">
+		<property name="length">
+			<value>0.5</value>
+		</property>
+		<property name="commandType">
+			<value>1</value>
+		</property>
+		<relationship name="commandTarget">
+			<destination>{e3793288-c601-4844-8729-808ea5de28cf}</destination>
+		</relationship>
+	</object>
+	<object class="CommandSound" id="{2da2adea-02c9-4cc1-a3e2-1d42e62a184b}">
+		<property name="length">
+			<value>0.5</value>
+		</property>
+		<property name="commandType">
+			<value>1</value>
+		</property>
+		<relationship name="commandTarget">
+			<destination>{edc3ae6f-dd3d-407b-9af7-939337bf090d}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{4d22138c-bb71-484a-b42f-d24c47ff47ec}">
 		<relationship name="effects">
 			<destination>{06149c6b-285f-491e-918a-b73d634221d1}</destination>
@@ -96,11 +124,17 @@
 		<property name="length">
 			<value>3.6509977324263039</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{26497cba-4cc8-412b-8e89-59668d8f20fd}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{2d894260-2744-4e23-8caf-ca282de3ef35}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{3eed6283-f585-4812-bdb4-d4195ae9ae27}">
+		<property name="volume">
+			<value>-2</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -121,6 +155,41 @@
 	</object>
 	<object class="MixerBusPanner" id="{01182059-11f2-47b5-9eff-26e5132e054b}" />
 	<object class="MixerBusFader" id="{06149c6b-285f-491e-918a-b73d634221d1}" />
+	<object class="ADSRModulator" id="{26497cba-4cc8-412b-8e89-59668d8f20fd}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>980</value>
+		</property>
+		<property name="attackShape">
+			<value>-0.550516248</value>
+		</property>
+		<property name="holdTime">
+			<value>1200</value>
+		</property>
+		<property name="decayTime">
+			<value>1200</value>
+		</property>
+		<property name="decayShape">
+			<value>0.291794986</value>
+		</property>
+		<property name="sustainValue">
+			<value>-80</value>
+		</property>
+		<property name="releaseTime">
+			<value>3400</value>
+		</property>
+		<property name="releaseShape">
+			<value>0.403587937</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{5f5aaff0-466e-404f-8122-ceaee1d824fb}">
 		<relationship name="effects">
 			<destination>{3bdfef0e-4992-43be-8449-ef4bba866d90}</destination>
