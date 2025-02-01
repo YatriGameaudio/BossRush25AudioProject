@@ -8,7 +8,7 @@
 			<value>SFX_JokerWallAttack</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{86d97868-d7b7-48ef-bc80-b3b23d119ae6}</destination>
@@ -138,6 +138,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{fa067424-bcf2-4e10-80a6-5985a651308e}">
 		<relationship name="effects">
+			<destination>{1bb67c7f-626c-46cf-a1bb-363479cea209}</destination>
 			<destination>{e3f62c87-1c12-4e27-93d0-ef27a352fdc3}</destination>
 		</relationship>
 	</object>
@@ -149,6 +150,17 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{8a415354-b1f0-45ef-b146-3408f30b43f7}" />
+	<object class="SpatialiserEffect" id="{1bb67c7f-626c-46cf-a1bb-363479cea209}">
+		<property name="minimumDistance">
+			<value>5.20000029</value>
+		</property>
+		<property name="maximumDistance">
+			<value>40</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{e3f62c87-1c12-4e27-93d0-ef27a352fdc3}" />
 	<object class="MixerBusFader" id="{62a56dc0-f331-44dd-ae12-d67954d76c6d}" />
 </objects>

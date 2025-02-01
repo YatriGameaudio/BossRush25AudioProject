@@ -5,7 +5,7 @@
 			<value>SFX_BossDamages</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{32e95b10-7d3f-4432-8064-8e728505c5a6}</destination>
@@ -73,7 +73,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{bc4211ab-3bb6-47a3-8757-5ee2cc2474b0}">
 		<property name="volume">
-			<value>3</value>
+			<value>-15.5</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{9835421d-9e94-4b73-bacf-5de3bc8da2e8}</destination>
@@ -98,6 +98,7 @@
 	<object class="MixerBusPanner" id="{4f5c3289-b380-4e7b-8459-67fb37fd1fb3}" />
 	<object class="MixerBusEffectChain" id="{9835421d-9e94-4b73-bacf-5de3bc8da2e8}">
 		<relationship name="effects">
+			<destination>{8e2fd53b-7285-4905-8408-204f593ab83e}</destination>
 			<destination>{6c2c084f-697f-4277-8be6-5d880cbc2d85}</destination>
 		</relationship>
 	</object>
@@ -108,5 +109,13 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{d9acbaab-5b8d-41ea-85b0-b8505bd1fd47}" />
+	<object class="SpatialiserEffect" id="{8e2fd53b-7285-4905-8408-204f593ab83e}">
+		<property name="minimumDistance">
+			<value>8.19999981</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{6c2c084f-697f-4277-8be6-5d880cbc2d85}" />
 </objects>

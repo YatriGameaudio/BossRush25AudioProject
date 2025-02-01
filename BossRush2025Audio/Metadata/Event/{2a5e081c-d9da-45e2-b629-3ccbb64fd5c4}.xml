@@ -9,7 +9,7 @@
 			<value>SFX_CardShot</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{86d97868-d7b7-48ef-bc80-b3b23d119ae6}</destination>
@@ -76,6 +76,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{005e3316-c3f8-4fc1-9f4a-4a060bc7ae4e}">
+		<property name="volume">
+			<value>-0.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{3d3681c8-f1de-4067-b777-35c4c5cf928f}</destination>
 		</relationship>
@@ -107,7 +110,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{0353bfa3-2378-42ee-ac4c-53e743bbccb4}">
 		<property name="volume">
-			<value>10</value>
+			<value>4.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -149,6 +152,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{72fb6856-f3a9-48fe-9dec-982b91567f12}">
 		<relationship name="effects">
+			<destination>{24e90db9-277a-4a89-aef0-fa663d7eeff4}</destination>
 			<destination>{f356ca27-5bdf-4f84-bf2d-c365dd3e60b7}</destination>
 			<destination>{736d9634-ac9d-4343-9a22-66757b091f1e}</destination>
 			<destination>{66204fc3-dc51-418d-bcf4-4c3d6a3d7877}</destination>
@@ -159,6 +163,11 @@
 	</object>
 	<object class="MixerBusPanner" id="{070ffa38-4440-45b4-8b22-610f3f6a4ff8}" />
 	<object class="MixerBusFader" id="{72eaf196-6ad5-4a38-a13a-6e5c02e0a767}" />
+	<object class="SpatialiserEffect" id="{24e90db9-277a-4a89-aef0-fa663d7eeff4}">
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{f356ca27-5bdf-4f84-bf2d-c365dd3e60b7}" />
 	<object class="TremoloEffect" id="{736d9634-ac9d-4343-9a22-66757b091f1e}">
 		<property name="frequency">
