@@ -96,6 +96,9 @@
 		<property name="length">
 			<value>0.29799999999999999</value>
 		</property>
+		<property name="playlistMode">
+			<value>1</value>
+		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{94e9c0d9-05af-47f5-ab06-e0724a535429}</destination>
 		</relationship>
@@ -136,6 +139,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{c6dc57bb-4d30-4347-a8f7-7b033ac767ae}">
+		<property name="volume">
+			<value>-11</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{d36e851a-afca-4503-94bc-b784dee5353a}</destination>
 		</relationship>
