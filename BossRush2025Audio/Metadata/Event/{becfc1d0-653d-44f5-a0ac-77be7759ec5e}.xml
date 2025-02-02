@@ -8,7 +8,7 @@
 			<value>SFX_DefenseCardJoker</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{86d97868-d7b7-48ef-bc80-b3b23d119ae6}</destination>
@@ -144,7 +144,6 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{8cf14d54-2e95-4a7e-865a-2170a0546bc5}">
 		<relationship name="effects">
-			<destination>{84dab6d4-62ba-48d2-9ba9-379289ceb9c2}</destination>
 			<destination>{6851392b-df38-4e2a-a36f-561737e8e2ee}</destination>
 		</relationship>
 	</object>
@@ -170,14 +169,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{a2a0c500-60a5-4499-9e00-0d74f441f52d}" />
-	<object class="SpatialiserEffect" id="{84dab6d4-62ba-48d2-9ba9-379289ceb9c2}">
-		<property name="minimumDistance">
-			<value>8.19999981</value>
-		</property>
-		<property name="overrideRange">
-			<value>true</value>
-		</property>
-	</object>
 	<object class="MixerBusFader" id="{6851392b-df38-4e2a-a36f-561737e8e2ee}" />
 	<object class="AutomationPoint" id="{215ad094-d1c9-4b3f-97f3-cc839b3563d8}">
 		<property name="position">

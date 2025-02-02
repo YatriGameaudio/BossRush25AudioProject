@@ -18,7 +18,7 @@
 		<relationship name="effects">
 			<destination>{373fcd39-2f57-4379-a286-c682587b853d}</destination>
 			<destination>{2cb33f13-1663-4626-9f27-63a1920373e8}</destination>
-			<destination>{78314729-1a85-40ea-bfa5-d9b687cd4f62}</destination>
+			<destination>{c002dba5-9c04-44f3-b8ef-b790657db431}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{469f1563-2b79-472c-8f03-0d5d1e5f28fa}">
@@ -28,5 +28,5 @@
 	</object>
 	<object class="ThreeEQEffect" id="{373fcd39-2f57-4379-a286-c682587b853d}" />
 	<object class="MixerBusFader" id="{2cb33f13-1663-4626-9f27-63a1920373e8}" />
-	<object class="LoudnessMeter" id="{78314729-1a85-40ea-bfa5-d9b687cd4f62}" />
+	<object class="LoudnessMeter" id="{c002dba5-9c04-44f3-b8ef-b790657db431}" />
 </objects>

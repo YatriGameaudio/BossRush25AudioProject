@@ -48,8 +48,6 @@
 		<relationship name="modules">
 			<destination>{e101686a-a3f2-43e7-a445-37ee86062d9f}</destination>
 			<destination>{2da2adea-02c9-4cc1-a3e2-1d42e62a184b}</destination>
-			<destination>{0f48e88b-97cb-44cf-8fb3-931ade46f07a}</destination>
-			<destination>{a9af686c-825f-45fa-b35c-808c172c876f}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{6626e0f3-5a46-465f-a408-3d033bc38113}</destination>
@@ -81,8 +79,6 @@
 			<destination>{96b6eedf-c79c-459f-a03c-0cc7528c07a6}</destination>
 			<destination>{e101686a-a3f2-43e7-a445-37ee86062d9f}</destination>
 			<destination>{2da2adea-02c9-4cc1-a3e2-1d42e62a184b}</destination>
-			<destination>{0f48e88b-97cb-44cf-8fb3-931ade46f07a}</destination>
-			<destination>{a9af686c-825f-45fa-b35c-808c172c876f}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{6626e0f3-5a46-465f-a408-3d033bc38113}">
@@ -118,28 +114,6 @@
 			<destination>{edc3ae6f-dd3d-407b-9af7-939337bf090d}</destination>
 		</relationship>
 	</object>
-	<object class="CommandSound" id="{0f48e88b-97cb-44cf-8fb3-931ade46f07a}">
-		<property name="length">
-			<value>0.5</value>
-		</property>
-		<property name="commandType">
-			<value>1</value>
-		</property>
-		<relationship name="commandTarget">
-			<destination>{ed5297c5-5781-487b-9609-05f3c91ff0c9}</destination>
-		</relationship>
-	</object>
-	<object class="CommandSound" id="{a9af686c-825f-45fa-b35c-808c172c876f}">
-		<property name="length">
-			<value>0.5</value>
-		</property>
-		<property name="commandType">
-			<value>1</value>
-		</property>
-		<relationship name="commandTarget">
-			<destination>{25b2c4f5-9aba-461e-96b8-6710f7be6176}</destination>
-		</relationship>
-	</object>
 	<object class="MixerBusEffectChain" id="{4d22138c-bb71-484a-b42f-d24c47ff47ec}">
 		<relationship name="effects">
 			<destination>{06149c6b-285f-491e-918a-b73d634221d1}</destination>
@@ -159,7 +133,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{3eed6283-f585-4812-bdb4-d4195ae9ae27}">
 		<property name="volume">
-			<value>-2</value>
+			<value>-9</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
