@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{865e8393-fade-4fa2-87ec-99e28740470a}">
 		<property name="assetPath">
 			<value>SFX_FullHand-004.wav</value>

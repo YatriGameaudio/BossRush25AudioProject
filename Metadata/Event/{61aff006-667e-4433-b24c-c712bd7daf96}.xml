@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{61aff006-667e-4433-b24c-c712bd7daf96}">
 		<property name="name">
 			<value>SFX_MoveFromPlay</value>
@@ -77,8 +77,8 @@
 	</object>
 	<object class="Timeline" id="{ff73c30f-95e2-48ad-9db8-095a71903592}">
 		<relationship name="modules">
-			<destination>{044c7fc0-dcd7-46c2-900d-9d6045490b11}</destination>
 			<destination>{f25f6e7f-4d7a-4a9e-9485-6733ddf6c6d8}</destination>
+			<destination>{044c7fc0-dcd7-46c2-900d-9d6045490b11}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{4a5775fb-6a31-49e2-a5f9-4b66d2415d43}">

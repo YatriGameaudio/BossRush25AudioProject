@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{e9b7fa8e-bad5-4450-8810-2f8c6fb326d5}">
 		<property name="assetPath">
 			<value>sfx_hit attack-004.wav</value>

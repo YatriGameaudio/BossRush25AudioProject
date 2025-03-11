@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{350632bd-e323-4f94-80a2-ae03a2869ad1}">
 		<property name="name">
 			<value>SFX_SlotMachine</value>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{d3fbb8c9-d6e2-489c-81c4-e8791e2777a6}">
 		<property name="note">
 			<value>Transião das telas
@@ -76,8 +76,8 @@
 	</object>
 	<object class="Timeline" id="{08d570ec-4197-472c-9097-c627b0902f85}">
 		<relationship name="modules">
-			<destination>{96b6eedf-c79c-459f-a03c-0cc7528c07a6}</destination>
 			<destination>{e101686a-a3f2-43e7-a445-37ee86062d9f}</destination>
+			<destination>{96b6eedf-c79c-459f-a03c-0cc7528c07a6}</destination>
 			<destination>{2da2adea-02c9-4cc1-a3e2-1d42e62a184b}</destination>
 		</relationship>
 	</object>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="EventFolder" id="{e2a64618-3160-43c0-99f2-4d0f01fffd31}">
 		<property name="name">
 			<value>Spin</value>

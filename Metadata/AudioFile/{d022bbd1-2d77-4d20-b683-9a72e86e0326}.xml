@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{d022bbd1-2d77-4d20-b683-9a72e86e0326}">
 		<property name="assetPath">
 			<value>SFX/SFX_BallShatter.wav</value>
