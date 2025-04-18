@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{f7b73dc3-6343-41d8-8546-bd7209f57381}">
+		<property name="note">
+			<value>Happens when the hand drags and drop a boll while populating balls</value>
+		</property>
 		<property name="name">
-			<value>SFX_PlaySnooker</value>
+			<value>SFX_HandMoveBall</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
