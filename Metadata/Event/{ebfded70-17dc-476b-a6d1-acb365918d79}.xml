@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{ebfded70-17dc-476b-a6d1-acb365918d79}">
+		<property name="note">
+			<value>Called when the pool stick attemps to stomp the player</value>
+		</property>
 		<property name="name">
-			<value>SFX_Boss01_Attack02</value>
+			<value>SFX_StickStomp</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
