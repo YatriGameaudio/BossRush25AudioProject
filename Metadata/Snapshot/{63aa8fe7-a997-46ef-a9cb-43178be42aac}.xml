@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Snapshot" id="{63aa8fe7-a997-46ef-a9cb-43178be42aac}">
 		<property name="name">
 			<value>Death</value>
@@ -75,17 +75,9 @@
 			<destination>{d9493dbe-8bbc-4899-bb75-dcbfd247ec62}</destination>
 		</relationship>
 		<relationship name="automationPoints">
-			<destination>{fb56d279-521e-418f-9ead-a61d4e7d6698}</destination>
 			<destination>{46d1e41a-706a-4719-904d-e09c506d2034}</destination>
+			<destination>{fb56d279-521e-418f-9ead-a61d4e7d6698}</destination>
 		</relationship>
-	</object>
-	<object class="AutomationPoint" id="{fb56d279-521e-418f-9ead-a61d4e7d6698}">
-		<property name="position">
-			<value>0</value>
-		</property>
-		<property name="value">
-			<value>0</value>
-		</property>
 	</object>
 	<object class="AutomationPoint" id="{46d1e41a-706a-4719-904d-e09c506d2034}">
 		<property name="position">
@@ -93,6 +85,14 @@
 		</property>
 		<property name="value">
 			<value>100</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{fb56d279-521e-418f-9ead-a61d4e7d6698}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>0</value>
 		</property>
 	</object>
 </objects>

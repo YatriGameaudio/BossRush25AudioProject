@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{f7b73dc3-6343-41d8-8546-bd7209f57381}">
 		<property name="name">
 			<value>SFX_PlaySnooker</value>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{8d3b5775-3742-44ef-96f1-721e67d27bac}">
 		<property name="assetPath">
 			<value>MUS/Mus_Boss01_agressive.wav</value>

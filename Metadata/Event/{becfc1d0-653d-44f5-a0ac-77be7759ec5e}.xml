@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{becfc1d0-653d-44f5-a0ac-77be7759ec5e}">
 		<property name="note">
 			<value>Escudo sendo atingido por tiro</value>

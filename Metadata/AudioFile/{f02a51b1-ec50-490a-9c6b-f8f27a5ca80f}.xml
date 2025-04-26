@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{f02a51b1-ec50-490a-9c6b-f8f27a5ca80f}">
 		<property name="assetPath">
 			<value>VO_JokerLaught-004.wav</value>
