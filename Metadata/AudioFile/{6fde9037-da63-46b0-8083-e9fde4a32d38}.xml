@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{6fde9037-da63-46b0-8083-e9fde4a32d38}">
 		<property name="assetPath">
 			<value>MUS/MUS_cutsceneprev.wav</value>

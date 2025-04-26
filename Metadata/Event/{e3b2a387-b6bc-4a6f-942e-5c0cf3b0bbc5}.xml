@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{e3b2a387-b6bc-4a6f-942e-5c0cf3b0bbc5}">
 		<property name="name">
 			<value>VO_SnookerMyTurn</value>

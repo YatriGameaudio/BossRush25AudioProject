@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{c50d5b96-478f-49af-8ab1-b2c0111161cf}">
 		<property name="name">
 			<value>SFX_Lever</value>

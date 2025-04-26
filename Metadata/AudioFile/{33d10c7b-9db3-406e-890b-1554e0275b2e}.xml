@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{33d10c7b-9db3-406e-890b-1554e0275b2e}">
 		<property name="assetPath">
 			<value>MUS_JazzTittle.wav</value>

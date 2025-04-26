@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{9c7d88a0-c3ad-4012-87fe-38c30361e9d0}">
 		<property name="assetPath">
 			<value>SFX/SFX_ShotGun-002.wav</value>

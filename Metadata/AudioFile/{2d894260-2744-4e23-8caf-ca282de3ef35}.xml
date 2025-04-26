@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{2d894260-2744-4e23-8caf-ca282de3ef35}">
 		<property name="assetPath">
 			<value>SFX_TransitionScreen.wav</value>

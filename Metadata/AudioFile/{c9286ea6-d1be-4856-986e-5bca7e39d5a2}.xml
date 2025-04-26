@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{c9286ea6-d1be-4856-986e-5bca7e39d5a2}">
 		<property name="assetPath">
 			<value>SFX/SFX_ShotTexture-007.wav</value>
