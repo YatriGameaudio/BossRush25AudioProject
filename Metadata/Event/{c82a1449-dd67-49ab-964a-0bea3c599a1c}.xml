@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{c82a1449-dd67-49ab-964a-0bea3c599a1c}">
 		<property name="name">
-			<value>SFX_Shot_Texture</value>
+			<value>Shot_Texture</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
